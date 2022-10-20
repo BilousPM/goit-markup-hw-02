@@ -1,1 +1,105 @@
-body {background: ;}
+:root{
+    --primary-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
+body {
+    background: #F5F5F5;
+    color: #757575
+} 
+
+.list {
+    list-style: none;
+}
+/* Шапка сайту */
+.logo {
+    color: #000000;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+/* auth-nav */
+
+/* hero */
+.hero-title { color: #FFFFFF; background: #484646;}
+
+/* section */
+.section-title {
+    color: var(--primary-text-color);
+}
+.benefits .title {
+    color: var(--primary-text-color);
+}
+.developers-title {
+    color: var(--primary-text-color);
+}
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.button.secondary {
+    color: #212121;
+    background-color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> */
+
+
+/* body {
+    background:#F5F5F5 ;
+    color: #757575;
+} */
+
+/* .logo:hover{
+    color:
+} */
+
+/* site-nav */
+/* .site-nav .link {
+    color:#212121 ;
+}
+.site-nav .link:hover, .link:focus{
+    color:#2196F3
+}
+/* hero */
+
+/* section */
+/* .section-title {
+    color: #212121;
+}  */
+/* Button */
+
+/* колір логотипу: web - #2196F3 ; studio - #000000 
+  колір навігації в шапці #212121
+  колір контактів в шапці #757575
+   колір тексту герої - #FFFFFF
+   колір заголовку  - #212121
+   колір тексту - #757575
+   номер тел. емейл - rgba(255, 255, 255, 0.6)
+   адресса - #FFFFFF 
+   колр акценту - #2196F3
+   колір фону #F5F5F5;*/
