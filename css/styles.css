@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-text-color: #212121;
     --accent-color: #2196f3;
     --primary-color: #ffffff;
@@ -45,9 +45,9 @@ body {
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-    
         color: var(--accent-color);
 }
+
 .logo-header { color: #000000;}
  
 /* site-nav */
@@ -76,6 +76,7 @@ body {
 .contact-link:hover, .contact-link:focus {
     color: var(--accent-color);
 }
+
 /*----------------------- hero --------------------*/
 .hero {
     background-color: #2F303A;
@@ -91,10 +92,7 @@ body {
         color: var(--primary-color);
 }
 
-
-.button-primary {
-    background-color: var(--accent-color);
-} .button-primary {
+ .button-primary {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -103,6 +101,7 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         color: var(--primary-color);
+        background-color: var(--accent-color);
 }
 
 /*----------------- benefits ----------------------*/
@@ -118,6 +117,7 @@ body {
         line-height: 1.7;
         letter-spacing: 0.03em;
 }
+
 /* -------------------case---------------- */
 .section-title {
         font-size: 36px;
@@ -172,35 +172,30 @@ body {
 
 /* -------------------main portfolio------------- */
 .button:hover, .button:focus {
-    color: var(--primary-color);
-    background-color: var(--accent-color);}
+        color: var(--primary-color);
+        background-color: var(--accent-color);}
 
-    .button {
-            background: #F5F4FA;
-            color:var(--primary-text-color);
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.62;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: var(--primary-text-color);
+.button {
+        background: #F5F4FA;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
     }
 
-        .button {
-            cursor: pointer:
-        }
 
     .projekt-title {
-        font-weight: 700;
-            font-size: 18px;
-            line-height: 2;
-            letter-spacing: 0.06em;
-            color: var(--primary-text-color);
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--primary-text-color);
     }
 
 
-.projekt-items {
-    font-size: 16px;
+    .projekt-items {
+        font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.03em;
-}
+    }
