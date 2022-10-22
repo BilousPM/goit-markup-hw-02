@@ -4,105 +4,187 @@
 }
 
 body {
-    background: #F5F5F5;
+    font-family: roboto, sans-serif;
+    background:#ffffff;
     color: #757575
 } 
 
 .list {
-    list-style: none;
+    list-style: none; 
+    }
+
+.link {
+    text-decoration: none;
 }
-/* Шапка сайту */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*-------------------- Шапка сайту-------------------*/
+.header {
+    background-color: #FFFFFF;
+}
+
+/* logo */
 .logo {
-    color: #000000;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
 }
-
+.logo-header { color: #000000;}
+ 
 /* site-nav */
-.site-nav .link {
-    color: var(--primary-text-color);
-}
-.site-nav .link:hover, .site-nav .link:focus{
-    color: var(--accent-color);
-}
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-/* auth-nav */
-
-/* hero */
-.hero-title { color: #FFFFFF; background: #484646;}
-
-/* section */
-.section-title {
-    color: var(--primary-text-color);
-}
-.benefits .title {
-    color: var(--primary-text-color);
-}
-.developers-title {
-    color: var(--primary-text-color);
-}
-/* button */
-.button {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-}
-.button.primary {
-    background-color: var(--accent-color);
-    color: #FFFFFF;
-}
-.button.secondary {
-    color: var(--primary-text-color);
-    background-color: #EEEEEE;
+.nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
 }
 
+.nav-link:hover, .nav-link:focus{
+     color: var(--accent-color);
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> */
-
-
-/* body {
-    background:#F5F5F5 ;
+/* contact list */
+.mail-link, .tel-link {
     color: #757575;
-} */
-
-/* .logo:hover{
-    color:
-} */
-
-/* site-nav */
-/* .site-nav .link {
-    color:#212121 ;
 }
-.site-nav .link:hover, .link:focus{
-    color:#2196F3
+.mail-link:hover, .mail-link:focus {
+    color: var(--accent-color);
 }
-/* hero */
+.tel-link:hover, .tel-link:focus {
+    color: var(--accent-color);}
+    
 
-/* section */
-/* .section-title {
-    color: #212121;
-}  */
-/* Button */
+/*--------------------------- hero --------------------*/
+.hero-title {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
 
-/* колір логотипу: web - #2196F3 ; studio - #000000 
-  колір навігації в шапці #212121
-  колір контактів в шапці #757575
-   колір тексту герої - #FFFFFF
-   колір заголовку  - #212121
-   колір тексту - #757575
-   номер тел. емейл - rgba(255, 255, 255, 0.6)
-   адресса - #FFFFFF 
-   колр акценту - #2196F3
-   колір фону #F5F5F5;*/
+.hero-title { background: #2F303A;}
+
+.button-primary {
+    background-color: var(--accent-color);
+} .button-primary {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+
+/*-------------------- benefits ----------------------*/
+.benef-item {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-text-color);
+}
+
+/* -------------------case---------------- */
+.case-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+
+/* ---------------------team------------------ */
+ 
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+
+.developers-title {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.9;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+
+.team-post {
+    font-size: 16px;
+        line-height: 1.8px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/*---------------footer--------------------------*/
+.footer {
+    background-color: #2F303A;
+}
+
+
+
+/* -------------------main portfolio------------- */
+.button:hover, .button:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);}
+
+    .button {
+            background: #F5F4FA;
+            color:#212121
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--primary-text-color);
+    }
+
+        .button {
+            cursor: pointer:
+        }
+
+    .projekt-title {
+        font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            color: var(--primary-text-color);
+    }
+
+
+.projekt-items {
+    font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+}
