@@ -156,6 +156,10 @@ body {
     color: var(--primary-color);
 }
 
+.font-style {
+    font-style: normal;
+}
+
 .footer {
     background-color: #2F303A;
 }
